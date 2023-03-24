@@ -2,7 +2,7 @@
 
 In this group project, we are initially meant to re-create the C `printf` function acccording to the following specifications:
 
-**1)** Write a function that produces output according to a format.
+**A)** Write a function that produces output according to a format.
 
   * Prototype: `int _printf(const char *format, ...);`
   * Returns: the number of characters printed (excluding the null byte used to end output to strings)
