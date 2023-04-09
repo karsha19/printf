@@ -4,7 +4,7 @@ This project makes use of all the topics we have learned so far in ALX Low-level
 
 In this group project, we are initially meant to re-create the C `printf` function acccording to the following specifications:
 
-** Write a function that produces output according to a format**.
+**Write a function that produces output according to a format**.
 
   * Prototype: `int _printf(const char *format, ...);`
   * Returns: the number of characters printed (excluding the null byte used to end output to strings)
