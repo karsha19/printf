@@ -33,11 +33,11 @@ In this group project, we are initially meant to re-create the C `printf` functi
   * `R`: prints the rot13'ed string
 
  * Use a local buffer of 1024 chars in order to call `write` as little as possible.
- * 
+ 
  * Handle the following flag characters for non-custom conversion specifiers:
-  * `+`
-  * space
-  * `#`
+   * `+`
+   * space
+   * `#`
  
 * Handle the following length modifiers for non-custom conversion specifiers:
   * `l`
