@@ -107,26 +107,19 @@ Specifier                |Output                        |Examples |
 
 ------------
 
-|Name                |Information                        |
+|Name                |Description                       |
 |----------------|-------------------------------|
 |`main.h`	| Header file with the data type struct, standard libraries, macros, flags and custom prototypes.|
 |`_printf.c`|Main printf function file. Calls other functions.|
 |`functions.c`|Contains functions that print a character, string, percent sign, binary and integer.|
 |`functions1.c` | Contains functions that print an unsigned integer number, unsigned number in octal, hexadecimal, upper hexadecimal, upper/lower hexadecimal.|
-`.c` | Custom function for char data type. | `None`
-|`printf_sting.c` | Function that calls string type variable. | `None` |
-|`printf_bin.c` | Function that gets the binary | `None` |
-`printf_oct.c` | Functions that returns octal number. | `None` |
-`printf_hex.c` | Calls hexadecimal numbers (lowercase). | `None` | 
-`printf_HEX.c` | Calls hexadecimal numbers (Uppercase). | `None` |
-`printf_unsigned.c` | Returns an unisgined data type. | `None` |
-`printf_hex_aux.c` | Auxiliar function for hexadecimal specific functions (lowercase). | `printf_exclusive_string.c` | 
-`printf_HEX_aux.c` | Auxiliar function hexadecimal specific functions (Uppercase). | `printf_p.c` |
-`printf_exclusive_string.c` | Returns a string and non readable characters are printed in hexadecimal numbers (Lowercase). | `printf_hex_aux.c` |
-`printf_srev.c` | Returns a string in reverse. | `None` |
-`printf_rot13.c` | Returns a string in Rot13. | `None` |
-`printf_str.c` | Auxiliar functions such as strlen and strcpy. | `None` |
+`functions2.c` | Contains functions that print a pointer, non-printables, prints in reverse, and rot13. |
+|`get_flags.c` | Function that calculates active flags. |
+|`get_precision.c` | Function that calculates the precision for printing |
+`get_size.c` | Function that calculates the size to cast to argument. |
+`get_width.c` | Function that calculates the width for printing | 
+`handle_print.c` | Function that prints an argument based on its type. |
+`utils.c` | Contains various utility functions. |
 `_putchar.c` | Custom putchar function. | `None` |
-
 
 ------------
