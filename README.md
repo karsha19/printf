@@ -107,13 +107,13 @@ Specifier                |Output                        |Examples |
 
 ------------
 
-|Name                |Information                        |Relevant Files                         |
-|----------------|-------------------------------|-----------------------------|
-|`main.h`	| Header file with the data type struct, standard libraries and custom prototypes.| `*.c compilation` |
-|`_printf.c`|Main printf function file. Calls other functions.|`printf_(name of var).c file` |
-|`printf_37.c`|Contains percentage print function.|`None` |
-|`printf_int.c` | Contains decimal and integer functions. | `None` | 
-`printf_char.c` | Custom function for char data type. | `None`
+|Name                |Information                        |
+|----------------|-------------------------------|
+|`main.h`	| Header file with the data type struct, standard libraries, macros, flags and custom prototypes.|
+|`_printf.c`|Main printf function file. Calls other functions.|
+|`functions.c`|Contains functions that print a character, string, percent sign, binary and integer.|
+|`functions1.c` | Contains functions that print an unsigned integer number, unsigned number in octal, hexadecimal, upper hexadecimal, upper/lower hexadecimal.|
+`.c` | Custom function for char data type. | `None`
 |`printf_sting.c` | Function that calls string type variable. | `None` |
 |`printf_bin.c` | Function that gets the binary | `None` |
 `printf_oct.c` | Functions that returns octal number. | `None` |
