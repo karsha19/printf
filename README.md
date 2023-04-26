@@ -2,7 +2,7 @@
 
 This project makes use of all the topics we have learned so far in ALX Low-level programming i.e loops, variables, pointers, function pointers, macros, directives, variadic functions etc.
 
-In this group project, we are initially meant to re-create the C `printf` function acccording to the following specifications:
+In this group project, we re-create the C `printf` function acccording to the following specifications:
 
 **Write a function that produces output according to a format**.
 
