@@ -33,7 +33,8 @@ The main files will include your main header file (`main.h`): `#include main.h`
 ------------
 
 **Prototype:** `int _printf(const char *format, ...);`
-**Use - General:**` `_printf("format string", var1, var2, ...);`
+
+**Use - General:** `_printf("format string", var1, var2, ...);`
 
 **Examples:**
  - Basic String: `_printf("%s Alx", "Hello");`
